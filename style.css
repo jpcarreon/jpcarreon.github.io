@@ -20,7 +20,7 @@
 	max-width:950px;
 	padding:25px 0 0;
 	border:none;
-	margin:-10px auto 0;
+	margin:0 auto;
 	background:#292929;
 }
 
@@ -49,10 +49,14 @@ p.indent {
 }
 
 h1.title {
+	width: 950px;
+	min-width:950px;
+	max-width: 950px;
+	padding: 10px;
+	margin: 0 auto;
+
 	font-family: "Lucida Console", "Courier New", monospace;
 	font-size:x-large;
-	
-	padding:10px;
 }
 
 
