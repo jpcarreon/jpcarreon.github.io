@@ -41,6 +41,7 @@ div.box {
 p {
 	display:block;
 	padding:10px;
+	text-align:justify;
 }
 
 p.indent {
@@ -59,7 +60,10 @@ h1.title {
 	font-size:x-large;
 }
 
-
+h3 {
+	display:block;
+	padding:5px 0 10px;
+}
 
 
 
