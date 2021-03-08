@@ -1,11 +1,67 @@
-div {
-	display: block;
-}
-
 * {
 	margin:0;
 	padding:0;
 	font-size:100%;
-	font-family:inherit;
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
 }
+
+#header {
+	width:100%;
+	padding:0;
+	margin:0;
+	background:#171616;
+	position:relative;
+}
+
+#content {
+	width:950px;
+	min-width:950px;
+	max-width:950px;
+	padding:25px 0 0;
+	border:none;
+	margin:-10px auto 0;
+	background:#292929;
+}
+
+body {
+	background: #292929;
+}
+
+div {
+	display:block;
+}
+
+div.box {
+	padding:10px;
+	background:#171616;
+	border:2px solid #111111;
+}
+
+p {
+	display:block;
+	padding:10px;
+}
+
+p.indent {
+	margin-inline-start:1em;
+	
+}
+
+h1.title {
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size:x-large;
+	
+	padding:10px;
+}
+
+
+
+
+
+
+
+
+
+
 
